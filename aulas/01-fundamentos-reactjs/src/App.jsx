@@ -1,8 +1,25 @@
-function App() {
+import { Post } from './Post';
+
+export function App() {
 
   return (
-    <h1>Hello World</h1>
+    <div>
+     <Post 
+      author="Gustavo Castro" 
+      content="Como Aprender JS de forma efetiva"
+      />
+
+      <Post 
+      author="Rafael Costa" 
+      content="Entendo RPA"
+      />
+
+      <Post 
+      author="Alexandre Silva" 
+      content="Melhores práticas de Engenharia"
+      />
+    </div>
+    
   )
 }
 
-export default App
