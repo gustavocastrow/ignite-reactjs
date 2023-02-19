@@ -3,10 +3,34 @@ import ptBR from 'date-fns/locale/pt-BR'
 import styles from './Post.module.css';
 import { Comment } from './Comment';
 import { Avatar } from './Avatar';
-import { useState } from 'react';
+import { FormEvent, useState, ChangeEvent, InvalidEvent } from 'react';
+
+interface Author {
+  name: string,
+  role: string,
+  avatarUrl: string;
+}
+
+interface Content {
+  type: 'paragraph' | 'link';
+  content: string
+}
+
+export interface PostType {
+  id: number;
+  author: Author;
+  publishedAt: Date;
+  content: Content[];
+  
+}
+
+interface PostProps {
+  post: PostType;
+
+}
 
 
-export function Post({author, publishedAt, content }){
+export function Post({ post }: PostProps){
   const [comments, setComments] = useState(
     ['Post muito bacana, hein?!'
   ]);
@@ -15,32 +39,32 @@ export function Post({author, publishedAt, content }){
   //newCommentText -> armazena em tempo real; tudo que é digitado dento do campo "textarea"
 
 
-  const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'",{
+  const publishedDateFormatted = format(post.publishedAt, "d 'de' LLLL 'às' HH:mm'h'",{
     locale: ptBR
   });
 
-  const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
+  const publishedDateRelativeToNow = formatDistanceToNow(post.publishedAt, {
     locale: ptBR,
     addSuffix: true,
   });
 
-  function handleCreateNewComment(){
+  function handleCreateNewComment(event: FormEvent){
     event.preventDefault();
 
     setComments([...comments, newCommentText]);
     setNewCommentText('');
   }
 
-  function handleNewCommentChange(){
+  function handleNewCommentChange(event: ChangeEvent<HTMLTextAreaElement>){
     event.target.setCustomValidity('');
     setNewCommentText(event.target.value);
   }
 
-  function handleNewCommentInvalid(){
+  function handleNewCommentInvalid(event: InvalidEvent<HTMLTextAreaElement>){
     event.target.setCustomValidity('Esse campo é obrigatorio');
   }
 
-  function deleteComment(commentToDelete){
+  function deleteComment(commentToDelete: string){
     const commentsWithoutDeletedOne = comments.filter(comment => {
       return comment !== commentToDelete;
     });
@@ -53,21 +77,21 @@ export function Post({author, publishedAt, content }){
     <article className={styles.post}> 
       <header>
         <div className={styles.author}>
-          <Avatar src={author.avatarUrl}/>
+          <Avatar src={post.author.avatarUrl}/>
           <div className={styles.authorInfo}>
-            <strong>{author.name}</strong>
-            <span>{author.role}</span>
+            <strong>{post.author.name}</strong>
+            <span>{post.author.role}</span>
           </div>
         </div>
 
-        <time title={publishedDateFormatted} dateTime={publishedAt.toISOString()}>
+        <time title={publishedDateFormatted} dateTime={post.publishedAt.toISOString()}>
           {publishedDateRelativeToNow}
         </time>
         
       </header>
 
       <div className={styles.content}>
-        {content.map(line => {
+        {post.content.map(line => {
           if (line.type === 'paragraph'){
             return <p key={line.content}>{line.content}</p>
           } else if (line.type === 'link'){
