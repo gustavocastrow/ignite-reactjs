@@ -47,9 +47,9 @@
   Nesse módulo iremos construir uma aplicação completa com roteamento e diversos conceitos importantes do ecossistema React como ConextAPI, useReducer, immer e muito mais.
   * Estrutura da Aplicação
     - [x] Introdução
-    - [ ] Criação do projeto
-    - [ ] Styled Components
-    - [ ] Configurando Temas
+    - [x] Criação do projeto
+    - [x] Styled Components
+    - [x] Configurando Temas
     - [ ] Tipagem de temas
     - [ ] Estilos globais
     - [ ] Cores & fonte
