@@ -2,7 +2,7 @@
 import { ButtonContainer, ButtonVariant } from './Button.styles';
 
 interface ButtonProps {
-  variant?: ButtonVariant;
+  variant?: ButtonVariant; //-> vem de dentro do button.styles.ts 
 }
 
 export function Button({variant = 'primary'}: ButtonProps){
