@@ -42,3 +42,65 @@
     - [x] Extensão de interfaces
     
     - [ ] Desfio To-do List
+
+## Criando SPAs com React
+  Nesse módulo iremos construir uma aplicação completa com roteamento e diversos conceitos importantes do ecossistema React como ConextAPI, useReducer, immer e muito mais.
+  * Estrutura da Aplicação
+    - [x] Introdução
+    - [ ] Criação do projeto
+    - [ ] Styled Components
+    - [ ] Configurando Temas
+    - [ ] Tipagem de temas
+    - [ ] Estilos globais
+    - [ ] Cores & fonte
+    - [ ] Configurando ESLint
+    
+  * Páginas e rotas
+    - [ ] React Router DOM
+    - [ ] Layout de rotas
+    - [ ] Header & Layout
+    - [ ] Página: Home
+    - [ ] Finalização da Home
+    - [ ] Aprimorando os inputs
+    - [ ] Página: History
+    - [ ] Componentes: Status
+
+  * Formulários
+    - [ ] Controlled vs Uncontrolled
+    - [ ] React Hook Form
+    - [ ] Validando formulários
+    - [ ] TypeScript no formulário
+    - [ ] Resetando formulário
+
+  * Funcionalidades da Aplicação
+    - [ ] Iniciando novo ciclo
+    - [ ] Criando coutdown
+    - [ ] O hook useEffect
+    - [ ] Reduzindo countdown
+    - [ ] Mudando title da página
+    - [ ] Interromper ciclo
+    - [ ] Ciclo completo
+    - [ ] Separando componentes
+    - [ ] Propp Drilling no React
+   
+  * Contexto no React
+  
+    - [ ] Entendendo contextos
+    - [ ] Convertendo para contexto
+    - [ ] Contexto no formulário
+    - [ ] Contexto entre rotas
+    - [ ] Reset do formulário
+    - [ ] Listagem do histórico 
+    - [ ] Formatação de data
+    
+   * Reducers
+  
+      - [ ] Criando reducer de ciclos
+      - [ ] Salvando um objeto no Reducer
+      - [ ] Marcando ciclo como finalizado 
+      - [ ] Separando Actions Types
+      - [ ] Separando Actions 
+      - [ ] Utilizando immer
+      - [ ] Salvando estado no storage
+      - [ ] Corrigindo listagem do histórico
+
