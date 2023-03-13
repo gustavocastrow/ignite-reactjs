@@ -50,14 +50,14 @@
     - [x] Criação do projeto
     - [x] Styled Components
     - [x] Configurando Temas
-    - [ ] Tipagem de temas
-    - [ ] Estilos globais
-    - [ ] Cores & fonte
-    - [ ] Configurando ESLint
+    - [x] Tipagem de temas
+    - [x] Estilos globais
+    - [x] Cores & fonte
+    - [x] Configurando ESLint
     
   * Páginas e rotas
-    - [ ] React Router DOM
-    - [ ] Layout de rotas
+    - [x] React Router DOM
+    - [x] Layout de rotas
     - [ ] Header & Layout
     - [ ] Página: Home
     - [ ] Finalização da Home
