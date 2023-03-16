@@ -58,12 +58,12 @@
   * Páginas e rotas
     - [x] React Router DOM
     - [x] Layout de rotas
-    - [ ] Header & Layout
-    - [ ] Página: Home
-    - [ ] Finalização da Home
-    - [ ] Aprimorando os inputs
-    - [ ] Página: History
-    - [ ] Componentes: Status
+    - [x] Header & Layout
+    - [x] Página: Home
+    - [x] Finalização da Home
+    - [x] Aprimorando os inputs
+    - [x] Página: History
+    - [x] Componentes: Status
 
   * Formulários
     - [ ] Controlled vs Uncontrolled
