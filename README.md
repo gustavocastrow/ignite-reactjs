@@ -66,11 +66,11 @@
     - [x] Componentes: Status
 
   * Formulários
-    - [ ] Controlled vs Uncontrolled
-    - [ ] React Hook Form
-    - [ ] Validando formulários
-    - [ ] TypeScript no formulário
-    - [ ] Resetando formulário
+    - [x] Controlled vs Uncontrolled
+    - [x] React Hook Form
+    - [x] Validando formulários
+    - [x] TypeScript no formulário
+    - [x] Resetando formulário
 
   * Funcionalidades da Aplicação
     - [ ] Iniciando novo ciclo
