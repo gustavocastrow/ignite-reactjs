@@ -73,34 +73,34 @@
     - [x] Resetando formulário
 
   * Funcionalidades da Aplicação
-    - [ ] Iniciando novo ciclo
-    - [ ] Criando coutdown
-    - [ ] O hook useEffect
-    - [ ] Reduzindo countdown
-    - [ ] Mudando title da página
-    - [ ] Interromper ciclo
-    - [ ] Ciclo completo
-    - [ ] Separando componentes
-    - [ ] Propp Drilling no React
+    - [x] Iniciando novo ciclo
+    - [x] Criando coutdown
+    - [x] O hook useEffect
+    - [x] Reduzindo countdown
+    - [x] Mudando title da página
+    - [x] Interromper ciclo
+    - [x] Ciclo completo
+    - [x] Separando componentes
+    - [x] Propp Drilling no React
    
   * Contexto no React
   
-    - [ ] Entendendo contextos
-    - [ ] Convertendo para contexto
-    - [ ] Contexto no formulário
-    - [ ] Contexto entre rotas
-    - [ ] Reset do formulário
-    - [ ] Listagem do histórico 
-    - [ ] Formatação de data
+    - [x] Entendendo contextos
+    - [x] Convertendo para contexto
+    - [x] Contexto no formulário
+    - [x] Contexto entre rotas
+    - [x] Reset do formulário
+    - [x] Listagem do histórico 
+    - [x] Formatação de data
     
    * Reducers
   
-      - [ ] Criando reducer de ciclos
-      - [ ] Salvando um objeto no Reducer
-      - [ ] Marcando ciclo como finalizado 
-      - [ ] Separando Actions Types
-      - [ ] Separando Actions 
-      - [ ] Utilizando immer
-      - [ ] Salvando estado no storage
-      - [ ] Corrigindo listagem do histórico
+      - [x] Criando reducer de ciclos
+      - [x] Salvando um objeto no Reducer
+      - [x] Marcando ciclo como finalizado 
+      - [x] Separando Actions Types
+      - [x] Separando Actions 
+      - [x] Utilizando immer
+      - [x] Salvando estado no storage
+      - [x] Corrigindo listagem do histórico
 
