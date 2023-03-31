@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useEffect, useState } from "react";
 
-interface Transactions {
+interface Transaction {
   id: number;
   description: string;
   type: 'income' | 'outcome';
@@ -8,9 +8,8 @@ interface Transactions {
   category: string;
   createdAt: string;
 }
-
 interface TransactionContextType {
-  transactions: Transactions[];
+  transactions: Transaction[];
 }
 
 interface TransactionsProviderProps {
@@ -20,7 +19,7 @@ interface TransactionsProviderProps {
 export const TransactionsContext = createContext({} as TransactionContextType);
 
 export function TransactionsProvider({children}:TransactionsProviderProps ){
-  const [transactions, setTransactions] = useState<Transactions[]>([]);
+  const [transactions, setTransactions] = useState<Transaction[]>([]);
 
   async function loadTransactions(){
     const response = await fetch('http://localhost:3000/transactions');
