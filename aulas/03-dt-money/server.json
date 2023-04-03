@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2023-02-30T18:45:16.282Z"
+    },
+    {
+      "description": "Desenvolvimento app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-04-03T17:34:12.255Z",
+      "id": 4
+    },
+    {
+      "description": "Iogurte de Banana",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-04-03T18:01:17.588Z",
+      "id": 5
     }
-]
+  ]
 }
