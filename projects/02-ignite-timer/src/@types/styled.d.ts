@@ -1,6 +1,6 @@
 // arquivo de definição de tipos onde só vai conter tipagens.
 import 'styled-components'
-import { defaultTheme } from './../styles/themes/default'
+import { defaultTheme } from '../styles/themes/default'
 
 type ThemeType = typeof defaultTheme
 
