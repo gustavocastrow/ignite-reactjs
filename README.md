@@ -1,6 +1,6 @@
 # Ignite ReactJS - Rocketseat
 
-## Fundamentos ReactJS
+## 1. Fundamentos ReactJS
   Nesse módulo, criaremos uma aplicação React utilizando Vite e aprenderemos sobre os conceitos mais importantes do React, entre eles estão componentização, propriedades, estados, imutabilidade e hooks, além de aplicar o TypeScript no nosso projeto para adicionar tipagem estática à aplicação.
   * Iniciando com React
     - [x] Introdução
@@ -43,7 +43,7 @@
     
     - [ ] Desfio To-do List
 
-## Criando SPAs com React
+## 2. Criando SPAs com React
   Nesse módulo iremos construir uma aplicação completa com roteamento e diversos conceitos importantes do ecossistema React como ConextAPI, useReducer, immer e muito mais.
   * Estrutura da Aplicação
     - [x] Introdução
@@ -103,4 +103,39 @@
       - [x] Utilizando immer
       - [x] Salvando estado no storage
       - [x] Corrigindo listagem do histórico
+      
+## 3. Consumo de API e performance no ReactJS
+  Nesse módulo construiremos uma aplicação front-end web completa, conectando a uma API e veremos como performar aplicações com React entendo como funcionam os algoritmos internos da biblioteca e todo fluxo de renderização de componentes.
+  * Estrutura Visual
+    - [x] Introdução
+    - [x] Setup do projeto
+    - [x] Componente: Header
+    - [x] Componente: Summary
+    - [x] Tabela de transações
+    - [x] Componente: SearchForm
+    - [x] Criando um modal acessível
+    - [x] Modal de nova transação
+    - [x] Botões de entrada e saída
+    - [x] Criando radio button acessível
+    
+ * Conexão com a API
+    - [x] Configurando JSON Server
+    - [x] Realizando requisição HTTP
+    - [x] Criando contexto de transações
+    - [x] Calculando resumo de transações
+    - [x] Formatando valores
+    - [x] Criando hook para o resumo
+    - [x] Aplicando React Hook Form
+    - [x] Controlled components
+    - [x] Buscando transações
+    - [x] Configurando Axios
+    - [x] Criando nova transação
+    - [x] Corrigindo erros linting
+    
+ * Conexão com a API
+    - [x] Utilizando React DevTools
+    - [x] Aplicando Context Selectors
+    - [x] Aplicando o useCallback
+    - [x] Aplicando o memo
+    - [x] Aplicando o useMemo
 
