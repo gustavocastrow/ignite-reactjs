@@ -1,5 +1,5 @@
 export default function Home(){
   return (
-    <h1>Hello NextJS =)</h1>
+    <h1>Index page</h1>
   )
 }
