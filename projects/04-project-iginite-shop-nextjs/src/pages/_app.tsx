@@ -1,3 +1,4 @@
+import { globalStyles } from '@/styles/global';
 import { Roboto } from '@next/font/google';
 import type { AppProps } from 'next/app';
 
@@ -6,6 +7,8 @@ const roboto = Roboto({
   style: ['normal'],
   subsets: ['latin'],
 });
+
+globalStyles()
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
