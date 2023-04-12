@@ -3,6 +3,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import { stripe } from '../../lib/stripe'
 import Stripe from 'stripe'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 interface ProductProps {
   product: {
@@ -34,11 +35,12 @@ export default function Product({product}: ProductProps){
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  //tudo que é passado aqui é o que vai ser criado no momento da build 
   return{
     paths: [
       {params: {id: 'prod_NfEc2zy9Sn5pX9'}}
     ],
-    fallback: false
+    fallback: 'blocking'
   }
 }
 
