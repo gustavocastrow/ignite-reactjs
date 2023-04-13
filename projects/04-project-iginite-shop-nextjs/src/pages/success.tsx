@@ -4,6 +4,7 @@ import Link from "next/link";
 import Stripe from "stripe";
 import { stripe } from "../lib/stripe";
 import { ImageContainer, SuccessContainer } from "../styles/pages/success";
+import Head from "next/head";
 
 
 interface SuccessProps {
@@ -17,25 +18,32 @@ interface SuccessProps {
 
 export default function Success({ customerName, product}: SuccessProps) {
   return (
-    <SuccessContainer>
-      <h1>Compra efetuada</h1>
-      <ImageContainer>
-        <Image src={product.imageUrl} width={120} height={110} alt="" />
-      </ImageContainer> 
+    <>
+     <Head>
+      <title>Compra efetuada | Ignite Shop</title>
 
-      <p>
-        Uhuul <strong>{customerName}</strong>, sua <strong>{product.name}</strong> já está a caminho da sua casa.
-      </p>
+      <meta name="robots" content="noindex"/>
+    </Head>
+      <SuccessContainer>
+        <h1>Compra efetuada</h1>
+        <ImageContainer>
+          <Image src={product.imageUrl} width={120} height={110} alt="" />
+        </ImageContainer> 
 
-      <Link href="/">
-        Voltar ao catálogo
-      </Link>
-    </SuccessContainer>
+        <p>
+          Uhuul <strong>{customerName}</strong>, sua <strong>{product.name}</strong> já está a caminho da sua casa.
+        </p>
+
+        <Link href="/">
+          Voltar ao catálogo
+        </Link>
+      </SuccessContainer>
+  </>
   )
 }
 
 export const getServerSideProps: GetServerSideProps = async({query}) => {
-  //fazendo redirect caso a rota não exista
+  //fazendo redirect caso a rota success não exista
   if(!query.session_id){
     return {
       redirect: {
