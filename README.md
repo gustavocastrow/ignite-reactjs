@@ -138,4 +138,46 @@
     - [x] Aplicando o useCallback
     - [x] Aplicando o memo
     - [x] Aplicando o useMemo
+    
+## 4. Fundamentos NextJS
+  Nesse módulo criaremos um projeto completo com o framework Next.js. Vamos utilizar StitchesJS, passando por conceitos de SPA, server-side rendering (SSR) e static-site generation (SSG).
+  * Fundamentos do Next.js
+    - [x] Introdução
+    - [x] Setup do projeto
+    - [x] Componente: Header
+    - [x] Componente: Summary
+    - [x] Tabela de transações
+    - [x] Componente: SearchForm
+    - [x] Criando um modal acessível
+    - [x] Modal de nova transação
+    - [x] Botões de entrada e saída
+    - [x] Criando radio button acessível
+    
+ * Estrutura Visual
+    - [x] Configurando JSON Server
+    - [x] Realizando requisição HTTP
+    - [x] Criando contexto de transações
+    - [x] Calculando resumo de transações
+    - [x] Formatando valores
+    - [x] Criando hook para o resumo
+    - [x] Aplicando React Hook Form
+    - [x] Controlled components
+    - [x] Buscando transações
+    - [x] Configurando Axios
+    - [x] Criando nova transação
+    - [x] Corrigindo erros linting
+    
+ * Integração com Stripe
+    - [x] Utilizando React DevTools
+    - [x] Aplicando Context Selectors
+    - [x] Aplicando o useCallback
+    - [x] Aplicando o memo
+    - [x] Aplicando o useMemo
+ 
+ * Produto & Checkout
+    - [x] Utilizando React DevTools
+    - [x] Aplicando Context Selectors
+    - [x] Aplicando o useCallback
+    - [x] Aplicando o memo
+    - [x] Aplicando o useMemo
 
