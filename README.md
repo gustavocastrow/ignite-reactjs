@@ -1,4 +1,4 @@
-# Ignite ReactJS - Rocketseat
+# 🚀 Ignite ReactJS - Rocketseat
 
 ## 1. Fundamentos ReactJS
   Nesse módulo, criaremos uma aplicação React utilizando Vite e aprenderemos sobre os conceitos mais importantes do React, entre eles estão componentização, propriedades, estados, imutabilidade e hooks, além de aplicar o TypeScript no nosso projeto para adicionar tipagem estática à aplicação.
@@ -142,42 +142,39 @@
 ## 4. Fundamentos NextJS
   Nesse módulo criaremos um projeto completo com o framework Next.js. Vamos utilizar StitchesJS, passando por conceitos de SPA, server-side rendering (SSR) e static-site generation (SSG).
   * Fundamentos do Next.js
-    - [x] Introdução
-    - [x] Setup do projeto
-    - [x] Componente: Header
-    - [x] Componente: Summary
-    - [x] Tabela de transações
-    - [x] Componente: SearchForm
-    - [x] Criando um modal acessível
-    - [x] Modal de nova transação
-    - [x] Botões de entrada e saída
-    - [x] Criando radio button acessível
-    
+    - [x] Conceitos do Next.js
+    - [x] Criando um projeto com Next.js
+    - [x] Criando rotas da aplicação
+    - [x] Configurando documento HTML
+
  * Estrutura Visual
-    - [x] Configurando JSON Server
-    - [x] Realizando requisição HTTP
-    - [x] Criando contexto de transações
-    - [x] Calculando resumo de transações
-    - [x] Formatando valores
-    - [x] Criando hook para o resumo
-    - [x] Aplicando React Hook Form
-    - [x] Controlled components
-    - [x] Buscando transações
-    - [x] Configurando Axios
-    - [x] Criando nova transação
-    - [x] Corrigindo erros linting
-    
+    - [x] Configuração Stitches
+    - [x] Estilos Globais
+    - [x] Cabeçalho da Aplicação 
+    - [x] Imagens no Next.js
+    - [x] Estrutura da Home
+    - [x] Criando carrossel
+
  * Integração com Stripe
-    - [x] Utilizando React DevTools
-    - [x] Aplicando Context Selectors
-    - [x] Aplicando o useCallback
-    - [x] Aplicando o memo
-    - [x] Aplicando o useMemo
+    - [x] Configurando conta Stripe
+    - [x] Data Fetching do Next.JS
+    - [x] Buscando produtos do Stripe
+    - [x] Utilizando SSG
+    - [x] Formatando preço 
  
  * Produto & Checkout
-    - [x] Utilizando React DevTools
-    - [x] Aplicando Context Selectors
-    - [x] Aplicando o useCallback
-    - [x] Aplicando o memo
-    - [x] Aplicando o useMemo
+    - [x] Navegação via Link
+    - [x] Estrutura da página de produto
+    - [x] Carregando dados do produto
+    - [x] SSG com parâmetro dinâmico
+    - [x] Fallback do SSG
+    - [x] Prefetch de links
+    - [x] API routes do Next.js
+    - [x] Checkout do Stripe
+    - [x] Botão de comprar
+    - [x] Estrutura de sucesso
+    - [x] Dados da compra no sucesso
+    - [x] Redirect no SSR
+    - [x] Trabalhando com SEO
+    
 
