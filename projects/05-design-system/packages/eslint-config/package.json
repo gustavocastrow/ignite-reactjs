@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "devDependencies": {
-    "@rocketseat/eslint-config": "^1.2.0",
+    "@rocketseat/eslint-config": "^3.0.12",
     "eslint": "^8.39.0"
   }
 }
